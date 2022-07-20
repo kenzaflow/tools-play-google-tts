@@ -8,7 +8,7 @@
 
 Reproduce la voz del traductor de Google directamente desde Node.js :)
 
-Idioma por defecto: `es-US`. Se puede cambiar en [package.json](./package.json)) en `config.lang`.
+Idioma por defecto: `es-US`. Se puede cambiar en [package.json](./package.json) en `config.lang`.
 
 Los códigos de idiomas se pueden ver [acá](https://cloud.google.com/text-to-speech/docs/voices)
 
