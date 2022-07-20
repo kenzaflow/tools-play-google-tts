@@ -1,14 +1,29 @@
 {
+    "config": {
+        "lang": "es-US"
+    },
+    "name": "tools-play-google-tts",
     "scripts": {
-        "start": "node index.mjs",
-        "dev": "nodemon index.mjs"
+        "play": "node index.mjs"
     },
     "dependencies": {
-        "audic": "^3.0.0",
+        "audic": "^3.0.1",
         "axios": "^0.27.2",
-        "glob": "^8.0.3",
-        "google-tts-api": "^2.0.2",
-        "nodemon": "^2.0.19",
-        "play-sound": "^1.1.5"
-    }
+        "google-tts-api": "^2.0.2"
+    },
+    "author": {
+        "name": "Kevin Zaracho",
+        "email": "kevin.isap99@gmail.com",
+        "url": "https://www.kenza.ar/"
+    },
+    "description": "Play Google TTS audio direct from Node.js",
+    "keywords": [
+        "google tts",
+        "google",
+        "tts",
+        "node.js app"
+    ],
+    "license": "MIT",
+    "version": "0.1.0",
+    "readme": "readme.md"
 }
